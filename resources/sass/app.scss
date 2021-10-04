@@ -1,0 +1,81 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+
+.h-screen {
+  height: 100vh;
+}
+
+li a:hover{
+  color: violet;
+  font-size: 16px;
+  text-shadow: 0px 0px 0px black;
+}
+
+.rounded-gradient-label{
+font-family: "Lucida Console", "Courier New", monospace;
+font-size:20px;
+color: white;
+background-color: purple;
+padding-top: 10px;
+padding-right: 10px;
+padding-bottom: 10px;
+padding-left: 10px;
+border-radius: 25px;
+background: rgb(221,178,235);
+background: linear-gradient(180deg, rgba(221,178,235,1) 0%, rgba(79,4,170,1) 94%);
+margin-top: 20px;
+margin-right: 10px;
+}
+
+
+.customBg{
+
+  background: rgb(113,109,120);
+  background: radial-gradient(circle, rgba(113,109,120,1) 0%, rgba(0,0,0,1) 94%);
+}
+
+.cvFirstColumn{
+font-family: "Lucida Console", "Courier New", monospace;
+width: 30%;
+flex-direction: column;
+align-items: center;
+text-align: center;
+justify-content: center;
+
+
+
+}
+
+.cvFirstColumn img{
+  border-radius: 25px;
+  border-color: purple;
+  border: 3px solid purple;
+}
+
+.cvFirstColumn h5{
+  margin-bottom: 0px;
+  font-style: italic;
+
+}
+
+.cvFirstColumn h3{
+  margin-top: 5px;
+}
+
+.cvSecondColumn{
+  width: 70%;
+  flex-direction: row;
+}
+
+.contactList{
+  text-align: justify;
+
+
+}
